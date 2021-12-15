@@ -5,7 +5,8 @@
 // База данных тарифных планов оператора. Поля: название,
 // тип вещания (обычный/HD), флаг общедоступности.
 
-fun main(args: Array<String>) {
-
+fun main() {
+    val ctx = Context()
+    ctx.getPlans().output()
 }
 
