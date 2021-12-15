@@ -1,0 +1,3 @@
+interface IFSort {
+    fun sort()
+}
